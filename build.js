@@ -25,7 +25,7 @@ function pageShell(title, bodyHtml) {
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${title} — Grasp It</title>
-<link rel="stylesheet" href="/legal.css">
+<link rel="stylesheet" href="legal.css">
 </head>
 <body>
 <div class="legal-doc">
@@ -71,13 +71,12 @@ function build() {
 
   writeIndex(entries);
 
-  // Custom domain for GitHub Pages.
   fs.writeFileSync(path.join(OUT, "CNAME"), "legal.grasp.it\n");
 }
 
 function writeIndex(entries) {
   const links = entries
-    .map(function (e) { return `<li><a href="/${e.slug}">${e.title}</a></li>`; })
+    .map(function (e) { return `<li><a href="${e.slug}.html">${e.title}</a></li>`; })
     .join("\n");
 
   const body = `<p class="updated">Grasp It — Augmented Haptics Ltd</p>
