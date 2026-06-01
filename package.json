@@ -1,0 +1,12 @@
+{
+  "name": "grasp-legal",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Legal pages for Grasp It (privacy, terms), generated from markdown.",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "dependencies": {
+    "marked": "^12.0.0"
+  }
+}
