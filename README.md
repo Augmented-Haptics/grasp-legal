@@ -1,4 +1,4 @@
-# Grasp It — Legal Pages
+# Grasp It - Legal Pages
 
 Privacy Statement and Terms of Service for Grasp It.
 
