@@ -1,4 +1,4 @@
-**Last updated: 29.04.2026**
+**Last updated: 08.09.2026**
 
 ## Who we are
 
@@ -14,7 +14,9 @@ We collect only what is needed to give you an account:
 
 On iOS, the app can access your photo gallery if you grant permission, so that you can use your own pictures within the app. This access is optional, controlled by the iOS permission prompt, and can be revoked at any time in your device settings.
 
-We do not currently collect usage analytics, location data, advertising identifiers, or the contents of your work in the app.
+We also collect anonymous usage statistics, described in the Analytics section below. They contain nothing that identifies you.
+
+We do not collect location data, advertising identifiers, or the contents of your work in the app.
 
 ## Why we collect it and our legal basis
 
@@ -22,13 +24,13 @@ We process your email address to create and maintain your account and to send th
 
 ## Analytics
 
-We do not collect analytics at this time. We may in the future introduce optional analytics to understand how the app is used and to improve it. If we do, we will update this statement to describe what is collected and the legal basis before any analytics are enabled.
+To understand how the app is used and to find errors, the app sends us anonymous usage statistics: which actions are taken, when, and on which app version and platform. These records are not linked to your account or your device, are sent without your sign-in credentials, and contain no identifier that persists between app sessions, so they cannot be traced back to you. They are deleted after 12 months.
 
 ## Who processes your data
 
-Authentication is handled by Supabase, acting as a processor on our behalf. Supabase processes your account data only to authenticate you. Their handling of data is described in their own privacy policy: https://supabase.com/privacy.
+Authentication and the storage of usage statistics are handled by Supabase, acting as a processor on our behalf. Supabase processes your account data only to authenticate you. Their handling of data is described in their own privacy policy: https://supabase.com/privacy.
 
-Your account data is stored within the European Union (Frankfurt, Germany). We do not transfer your account data outside the EU or UK.
+Your account data and the usage statistics are stored within the European Union (Frankfurt, Germany). We do not transfer them outside the EU or UK.
 
 To keep you signed in, the app stores a session token locally on your device. This token stays on your device and is removed when you sign out.
 
@@ -36,7 +38,7 @@ We do not sell your data or share it for advertising.
 
 ## How long we keep it
 
-We keep your account data for as long as your account exists. When you delete your account, we delete the associated account data, subject to any retention period required by law.
+We keep your account data for as long as your account exists. When you delete your account, we delete the associated account data, subject to any retention period required by law. Anonymous usage statistics are deleted after 12 months.
 
 ## How we protect your data
 
